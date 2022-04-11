@@ -25,13 +25,7 @@ User.init(
       allowNull: false,
       validate: {
         len: [8],
-        // password length?
       },
-    },
-    dateCreated: {
-      type: DataTypes.DATEONLY,
-      allowNull: false,
-      defaultValue: DataTypes.NOW,
     },
   },
 

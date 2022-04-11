@@ -19,7 +19,7 @@ router.get("/", withAuth, async (req, res) => {
   }
 });
 
-// after lick on new post button
+// after click on new post button
 router.get("/new", withAuth, (req, res) => {
   res.render("new-post", {
     layout: "dashboard",
